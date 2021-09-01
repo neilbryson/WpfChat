@@ -9,9 +9,11 @@
     <ItemGroup>
       <Folder Include="Core" />
       <Folder Include="Icons" />
-      <Folder Include="MVVM\Model" />
       <Folder Include="MVVM\View" />
-      <Folder Include="Themes" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Faker.Net" Version="1.5.138" />
     </ItemGroup>
 
 </Project>
