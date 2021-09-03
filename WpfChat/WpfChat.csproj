@@ -7,13 +7,30 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Core" />
-      <Folder Include="Icons" />
       <Folder Include="MVVM\View" />
     </ItemGroup>
 
     <ItemGroup>
       <PackageReference Include="Faker.Net" Version="1.5.138" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Icons\camera.png" />
+      <Content Include="Icons\camera.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <None Remove="Icons\phone.png" />
+      <Content Include="Icons\phone.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <None Remove="Icons\send.png" />
+      <Content Include="Icons\send.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <None Remove="Icons\add-circle.png" />
+      <Content Include="Icons\add-circle.png">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
     </ItemGroup>
 
 </Project>
