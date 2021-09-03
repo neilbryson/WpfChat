@@ -11,6 +11,8 @@ namespace WpfChat
     {
         public MainWindow()
         {
+            MinWidth = 640;
+            MinHeight = 480;
             InitializeComponent();
         }
 
